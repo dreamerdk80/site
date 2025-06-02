@@ -1,0 +1,30 @@
+.books-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 90%;
+    margin: 25px 0 25px 0;
+    padding: 25px;
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 10px;
+}
+
+.book-img {
+    width: 25%;
+}
+
+.book-description {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.book-img img {
+    width: 80%;
+}
