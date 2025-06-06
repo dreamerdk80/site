@@ -1,7 +1,8 @@
 .books-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 10px auto;
+    padding: 10px 25px;
 }
 
 .book-card {
@@ -9,14 +10,15 @@
     flex-direction: row;
     gap: 50px;
     width: 90%;
-    margin: 25px 0 25px 0;
+    margin: 25px auto;
     padding: 25px;
     border: 1px solid rgb(218, 217, 217);
     border-radius: 10px;
+    
 }
 
 .book-img {
-    width: 25%;
+    width: 40%;
 }
 
 .book-description {
@@ -27,4 +29,15 @@
 
 .book-img img {
     width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .book-card {
+        flex-direction: column;
+    }
+
+    .book-img {
+        width: 80%;
+        margin: auto;
+    }
 }

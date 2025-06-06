@@ -4,9 +4,11 @@
 
 .slider-container {
   position: relative;
-  width: 600px;
-  height: 400px;
-  margin: 0 auto;
+  max-width: 600px;
+  max-height: 400px;
+  width: 80%;
+  height: 80%;
+  margin: 25px auto;
   overflow: hidden;
 }
 
